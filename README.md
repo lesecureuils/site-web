@@ -2,6 +2,11 @@
 
 Site statique français, responsive, sans dépendance ni compilation. Aucun nom de domaine nécessaire pour la prévisualisation GitHub Pages.
 
+## Liens du projet
+
+- Site de présentation : https://lesecureuils.github.io/site-web/
+- Dépôt : https://github.com/lesecureuils/site-web
+
 ## Prévisualiser
 
 Exécuter `python3 -m http.server 8000` dans ce dossier, puis ouvrir http://localhost:8000. Ouvrir directement index.html permet aussi de voir le site, mais le chargement JSON nécessite un serveur HTTP.
@@ -38,4 +43,4 @@ La préversion n’est pas privée : noindex est une consigne aux moteurs de rec
 - Association, missions et adresse : https://www.helloasso.com/associations/ape-les-ecureuils-a-hargarten
 - Adhésion 5 €, période 01/09/2026–31/08/2027 : https://www.helloasso.com/associations/ape-les-ecureuils-a-hargarten/adhesions/adhesion-annuelle-2
 
-L’illustration SVG est originale et décorative, non une représentation des locaux de l’école. Le logo public a été récupéré sur HelloAsso et intégré à la page (version 140 px). Demander l’original haute résolution au bureau. Les images sont intégrées au HTML pour faciliter le déploiement ; les sources sont conservées dans assets/.
+L’illustration SVG est originale et décorative, non une représentation des locaux de l’école. Le logo public a été récupéré sur HelloAsso et intégré à la page (version 140 px). Demander l’original haute résolution au bureau. Les images sont intégrées au HTML pour faciliter le déploiement ; les sources sont conservées dans assets/ dans l’archive locale de livraison.
