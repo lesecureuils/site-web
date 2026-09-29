@@ -1,0 +1,30 @@
+media:
+  input: assets
+  output: /assets
+content:
+  - name: actualites
+    label: Actualités
+    path: actualites.json
+    type: file
+    fields:
+      - name: items
+        label: Publications
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Titre
+            type: string
+            required: true
+          - name: date
+            label: Date
+            type: date
+            required: true
+          - name: body
+            label: Texte
+            type: text
+            required: true
+          - name: published
+            label: Afficher sur le site
+            type: boolean
+            default: false
